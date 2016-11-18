@@ -13,7 +13,7 @@ namespace XamarinXamlStudy
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new BindingPage());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

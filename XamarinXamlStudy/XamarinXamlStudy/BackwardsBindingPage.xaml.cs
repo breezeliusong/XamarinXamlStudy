@@ -8,16 +8,11 @@ using Xamarin.Forms;
 
 namespace XamarinXamlStudy
 {
-    public partial class BindingPage : ContentPage
+    public partial class BackwardsBindingPage : ContentPage
     {
-        public BindingPage()
+        public BackwardsBindingPage()
         {
             InitializeComponent();
-        }
-
-        private async void click(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new BackwardsBindingPage());
         }
     }
 }
